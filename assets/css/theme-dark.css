@@ -1,0 +1,71 @@
+body{
+	background: #343a40;
+}
+#menu-header-center ul li .nav-link{
+	color:white;
+}
+h3,h5,h4{
+	color: white;
+}
+.box-bot-movie{
+	background: #212529;
+}
+.link{
+	color:#ffc107;
+}
+.title-box-movie{
+	border-bottom: 2px solid white;
+}
+.jumbotron{
+	background: #495057;
+}
+hr{
+	border-top: 1px solid #545b62;
+}
+.box-movie-selected, .trailer-detail-movie, .conten-movie{
+	border: 2px solid #414141;
+}
+.conten-movie, .content-detail-movie{
+	background-color: #333;
+	color: #e9ecef;
+}
+.breadcrumb{
+	background-color: #495057;
+	color: #ddd;
+}
+.dropdown-menu{
+	background-color: #545b62;
+}
+::-webkit-scrollbar-thumb{
+	background-color: #495057;
+}
+.a-sub-comming-movie{
+	color: #ced4da;
+}
+
+.label-comming{
+	background-color: #212529;
+}
+.li-comming{
+	border-left: 1px solid #545b62;
+	border-bottom: 1px solid #545b62;
+}
+.box-comming {
+	border: 5px solid #545b62;
+}
+.title-movie{
+	color: #ffc107;
+}
+.affix_header{
+	 background: rgb(52, 58, 64);
+    border-bottom: 1px solid #6c757d;
+}
+.navbar{
+		background: #343a40;
+	}
+.navbar-light .navbar-toggler{
+	    border-color: #212529;
+}
+ .see-more-color{
+        color: #dee2e6;
+    }

@@ -1,0 +1,137 @@
+.row{
+	margin: 0;
+}
+.text-warning{
+	color : #f1b604 !important;
+}
+.link {
+	text-decoration: none !important;
+	color: black;
+}
+a:hover{
+	color: red;
+}
+.tooltip-inner{
+	background-color:#fd7e14;
+}
+
+.dropdown-menu{
+	min-width: 13em;
+}
+
+.affix {
+	top: 10px;
+	position: fixed;
+	width: 252px;
+}
+
+.affix_header {
+  top: 0px;
+  height: 60px;
+  position: fixed;
+  z-index: 10;
+  background: white;
+  width: 100%;
+  border-bottom: 1px solid #e9ecef;
+}
+
+
+
+.text-yellow{
+	color: #ffc107;
+}
+.breadcrumb{
+	/*background-color: #dee2e6;*/
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background-color: #dc3545; 
+	background-image: -webkit-linear-gradient(45deg,rgba(255, 255, 255, .2) 25%,
+		transparent 25%,
+		transparent 50%,
+		rgba(255, 255, 255, .2) 50%,
+		rgba(255, 255, 255, .2) 75%,
+		transparent 75%,
+		transparent)
+}
+
+/* Handle on hover */
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #eee;
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: red;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #f60000;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: black;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
